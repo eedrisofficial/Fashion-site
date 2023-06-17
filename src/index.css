@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply bg-[#E87A5D] border-slate-200 border-2 rounded-xl px-5 py-1;
+  }
+}
