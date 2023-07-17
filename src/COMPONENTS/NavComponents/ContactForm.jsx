@@ -57,7 +57,7 @@ const ContactForm = () => {
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
           value={formik.values.name}
-          className=" mt-0 px-3 py-2 bg-gray-200 focus:border-2  border-[#00246B]   focus:shadow-transparent rounded-md focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
+          className=" mt-0 px-3 py-2 bg-gray-200 border-2  border-[#00246B]   focus:shadow-transparent rounded-md focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
         />
         {formik.touched.name && formik.errors.name ? (
           <div>{formik.errors.name}</div>
@@ -76,7 +76,7 @@ const ContactForm = () => {
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
           value={formik.values.email}
-          className="px-3 py-2 bg-gray-200 focus:border-2  border-[#00246B]    focus:shadow-transparent rounded-md focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
+          className="px-3 py-2 bg-gray-200 border-2  border-[#00246B]    focus:shadow-transparent rounded-md focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
         />
         {formik.touched.email && formik.errors.email ? (
           <div>{formik.errors.email}</div>
@@ -94,7 +94,7 @@ const ContactForm = () => {
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
           value={formik.values.message}
-          className="  h-36  px-3 py-1 bg-gray-200 focus:border-2 border-[#00246B]  focus:shadow-none rounded-md focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
+          className="  h-36  px-3 py-1 bg-gray-200 border-2 border-[#00246B]  focus:shadow-none rounded-md focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
         />
         {formik.touched.message && formik.errors.message ? (
           <div>{formik.errors.message}</div>
