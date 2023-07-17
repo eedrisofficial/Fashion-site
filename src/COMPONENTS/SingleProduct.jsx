@@ -24,7 +24,7 @@ const SingleProduct = ({ cloth }) => {
         <img
           src={cloth.image}
           alt={cloth.name}
-          className="object-cover w-full h-[200px] lg:h-[400px] rounded-none"
+          className="object-cover w-full h-[200px] lg:h-[300px] rounded-none"
         />
         <div className="flex flex-col gap-2 p-2">
           <div className="flex justify-between px-2">

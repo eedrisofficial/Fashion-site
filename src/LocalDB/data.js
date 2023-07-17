@@ -299,7 +299,7 @@ export const data = [
     name: "Gown",
     price: 70,
     image:
-      "https://images.pexels.com/photos/160668/girl-dress-nature-160668.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/16928397/pexels-photo-16928397/free-photo-of-beautiful-woman-in-gown-posing.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     category: "Gown",
