@@ -7,7 +7,6 @@ import LandingPage from "./COMPONENTS/LandingPage";
 import Account from "./COMPONENTS/NavComponents/Account";
 import NewArrivals from "./COMPONENTS/NavComponents/NewArrivals";
 import Trending from "./COMPONENTS/NavComponents/Trending";
-import Login from "./COMPONENTS/NavComponents/Login";
 import ForgotPassword from "./COMPONENTS/NavComponents/ForgotPassword";
 import { GlobalContext } from "./Context/GlobalState";
 import { useContext, useEffect, useState } from "react";
@@ -34,7 +33,6 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/account" element={<Account />} />
-          <Route path="/login" element={<Login />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="contact" element={<Contact />} />
