@@ -29,7 +29,7 @@ const LoginForm = () => {
           value={formik.values.email}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
-          placeholder="Enter Your Fullname.."
+          placeholder="Enter Your email.."
           className="p-2 border-2 border-black/100 focus:border-2  focus:shadow-transparent  focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
         />
         {formik.touched.email && formik.errors.email ? (
@@ -44,7 +44,7 @@ const LoginForm = () => {
           value={formik.values.password}
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
-          placeholder="Enter Your Fullname.."
+          placeholder="Enter Your your password"
           className="p-2 border-2 border-black/100 focus:border-2  focus:shadow-transparent  focus:outline-none  focus:ring-[#E87A5D] focus:border-[#E87A5D] focus:bg-white placeholder:text-slate-400 placeholder:text-xl"
         />
         {formik.touched.password && formik.errors.password ? (
