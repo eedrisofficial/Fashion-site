@@ -102,7 +102,7 @@ const ContactForm = () => {
       </div>
       <button
         disabled={isSubmitting}
-        className="rounded-lg mt-3 mb-8 bg-[#00246B]  hover:bg-[#E87A5D] px-5 text-[20px] shadow-lg shadow-[#E87A5D] hover:shadow-transparent"
+        className="rounded-lg mt-3 mb-8 bg-[#00246B]  text-white hover:text-black hover:bg-[#E87A5D] px-5 text-[20px] shadow-lg shadow-[#00246B] hover:shadow-transparent"
       >
         {isSubmitting ? "sending" : "send"}
       </button>
